@@ -3,7 +3,7 @@ const dayjs = require('dayjs');
 
 const PORT = 3000;
 const studentName = 'İsmail Savcı';
-const introduction = 'Yozgat Bozok Üniversitesi Bilgisayar Mühendisliği öğrencisiyim.';
+const introduction = 'Yozgat Bozok Üniversitesi Bilgisayar Mühendisliği öğrencisiyim. Web programlama ve Node.js ile sunucu geliştirme konularını öğreniyorum.';
 const courseDay = 'Cuma';
 
 const server = http.createServer((request, response) => {
