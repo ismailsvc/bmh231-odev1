@@ -9,7 +9,7 @@ BMH231 ödevi için Node.js'in yerleşik `http` modülü ve `dayjs` kullanılara
 ## Kurulum ve çalıştırma
 
 ```bash
-git clone <GitHub-depo-adresi>
+git clone https://github.com/ismailsvc/bmh231-odev1.git
 cd bmh231-odev1
 npm install
 npm start
