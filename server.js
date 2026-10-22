@@ -17,7 +17,7 @@ const server = http.createServer((request, response) => {
       Allow: 'GET',
       'Content-Type': 'text/plain; charset=utf-8',
     });
-    response.end('Yalnizca GET istegi destekleniyor.');
+    response.end('Yalnızca GET isteği destekleniyor.');
     return;
   }
 
