@@ -46,7 +46,7 @@ const server = http.createServer((request, response) => {
   <body>
     <main>
       <div class="eyebrow">BMH231 · Web'in Temelleri</div>
-      <h1>Web Programlama Projem</h1>
+      <h1>BMH231 Web Programlama Sunucusu</h1>
       <p>Node.js'in yerleşik HTTP modülüyle hazırlanmış küçük sunucuma hoş geldiniz. Bu ana sayfa HTML olarak sunulur; ders ve tarih bilgileri JSON API'lerinde yer alır.</p>
       <nav aria-label="Sunucu sayfaları">
         <a href="/hakkimda">Hakkımda</a>
