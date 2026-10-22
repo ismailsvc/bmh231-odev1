@@ -17,6 +17,19 @@ npm start
 
 Sunucu `http://localhost:3000` adresinde çalışır. Farklı bir terminalden, örneğin `curl -i http://localhost:3000/api/agep` komutuyla istek gönderebilirsiniz. Windows PowerShell'de `npm` komutu çalıştırma ilkesi nedeniyle engellenirse `npm.cmd start` kullanın.
 
+## İstekleri deneme
+
+Sunucu çalışırken PowerShell'de şu komutlarla yanıtları kontrol edebilirsiniz:
+
+```powershell
+curl.exe -i http://localhost:3000/
+curl.exe -i http://localhost:3000/hakkimda
+curl.exe -i http://localhost:3000/api/ders
+curl.exe -i http://localhost:3000/api/agep
+curl.exe -i http://localhost:3000/olmayan-sayfa
+curl.exe -i -X POST http://localhost:3000/api/ders
+```
+
 ## Desteklenen yollar
 
 | Yol | Yöntem | Yanıt |
